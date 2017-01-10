@@ -174,7 +174,7 @@ canvas.addEventListener('click',function(event){
     return alert('You can not choose this spot')
   }
 
-  // let canPlace = hasNeighbours(y,x,playerSign)
+  // const canPlace = hasNeighbours(y,x,playerSign)
   // if(!canPlace)
   //   return alert('You can not choose this spot')
 

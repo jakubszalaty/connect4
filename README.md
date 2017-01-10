@@ -10,7 +10,7 @@ cd electron-quick-start
 # Install dependencies
 npm install
 # Run the app
-npm start
+electron .
 ```
 ## Screenshot
 ![Screenshot](./Screenshot.png "Screenshot")
