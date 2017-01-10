@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Connect 4</title>
+    <style>
+      #connect{
+        /*border:1px solid #000000;*/
+        background: #EEE;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p> Time: <span id="time"></span> <span id="step"></span></p>
+    <canvas id="connect" width="406" height="406"></canvas>
+    <!-- <canvas id="connect"></canvas> -->
+
+    <div style="margin-top: 20px;">
+
+
+      <button id="play">Play</button>
+    </div>
+
+
+  </body>
+  <script>
+    // jshint esversion: 6
+    // jshint asi: true
+    // You can also require other files to run in this process
+
+    require('./renderer.js')
+
+  </script>
+</html>
